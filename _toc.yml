@@ -1,7 +1,8 @@
 format: jb-book
 root: intro
 chapters:
-- file: path/to/chapter1
-- url: https://example.com
-  title: Example website
-- glob: subfolder/other*
+- file: chapter1
+- file: chapter2
+  sections:
+  - file: section1
+
